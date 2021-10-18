@@ -16,9 +16,9 @@ export default {
   data() {
     return {
       images: [
-        'https://i.ibb.co/PG0Brfs/endless3.jpg',
-        'https://i.ibb.co/z71fLR9/endless4.jpg',
-        'https://i.ibb.co/ym26ffw/endless9.jpg',
+        'https://i.ibb.co/KwzNybg/endless3.jpg',
+        'https://i.ibb.co/Fnxd6C2/endless4.jpg',
+        'https://i.ibb.co/mB2V0r7/endless9.jpg',
         ],
       timer: null,
       currentIndex: 0,

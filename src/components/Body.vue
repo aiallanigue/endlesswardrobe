@@ -2,17 +2,17 @@
     <div class="hello">
         <div class="row">
             <div class="column">
-                    <img class='staticimg' src='https://i.ibb.co/F6Vj7XK/endless1.jpg' />
-                    <img class='staticimg' src='https://i.ibb.co/j4n36T7/endless2.jpg' />
+                    <img class='staticimg' src='https://i.ibb.co/72c18Xs/endless1.jpg' />
+                    <img class='staticimg' src='https://i.ibb.co/7tgMvJ1/endless2.jpg' />
             </div>
 
             <div class="column">
-                    <img class='staticimg' src='https://i.ibb.co/dc7rYHq/endless5.jpg' />
-                    <img class='staticimg' src='https://i.ibb.co/CW9Yn9B/endless6.jpg' />
+                    <img class='staticimg' src='https://i.ibb.co/647DxCz/endless5.jpg' />
+                    <img class='staticimg' src='https://i.ibb.co/kyxQdc2/endless6.jpg' />
             </div>
 
             <div class="column">
-                    <img class='staticimg' src='https://i.ibb.co/dJkXtML/endless7.jpg' />
+                    <img class='staticimg' src='https://i.ibb.co/Jx6kyHm/endless7.jpg' />
                     <img class='staticimg' src='https://i.ibb.co/DzTBJdh/endless8.jpg' />
             </div>
         </div>
@@ -22,20 +22,14 @@
 <style>
 
 @media (min-width: 600px) {
-
-    .hello {
+    .row {
         align-items: center !important;
         justify-content: center !important;
-    }
-
-    .row {
-            align-items: center !important;
-            justify-content: center !important;
-            display: -ms-flexbox; /* IE10 */
-            display: flex;
-            -ms-flex-wrap: wrap; /* IE10 */
-            flex-wrap: wrap;
-            padding: 0 4px;
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
     }
 
     .column {
@@ -86,7 +80,5 @@
         padding-top: 8px;
     }
 }
-
-
 </style>
 
